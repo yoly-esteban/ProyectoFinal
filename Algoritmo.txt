@@ -1,0 +1,32 @@
+Algoritmo
+
+1.	Solicitar nombre del futuro cliente/asegurado
+2.	Solicitar el ingreso de la edad del cliente asegurado
+2.1.	Validar si es mayor de edad
+2.1.1.	 Si NO es mayor de edad se le desplegara un mensaje de que no es objeto de cotización. 
+2.1.2.	 SI es mayor de edad se procederá con el flujo normal del programa. Continuar al inciso 2.2
+2.2.	Calcular recargos basados en rango de edad. 
+2.2.1.	 Si tienen de 18 a 24 años, se les hará un recargo del 10% del precio base
+2.2.2.	 Si tienen de 25 a 49 años, se les hará un recargo del 20% del precio base
+2.2.3.	 Si tienen 50 años o más, se les hará un recargo del 30% del precio base
+3.	Solicitar y validar si el cliente/asegurado posee cónyuge
+3.1.	Si NO posee cónyuge continuar al inciso 4
+3.2.	SI posee cónyuge, solicitar el ingreso de la edad del cónyuge
+3.3.	Validar edad del cónyuge y calcular recargos basados en rango de edad
+3.3.1.	Si tienen de 18 a 24 años, se les hará un recargo del 10% del precio base
+3.3.2.	 Si tienen de 25 a 49 años, se les hará un recargo del 20% del precio base
+3.3.3.	 Si tienen 50 años o más, se les hará un recargo del 30% del precio base
+4.	Solicitar y validar si el cliente/asegurado posee hijos
+4.1.	Si NO posee hijos continuar al inciso 5
+4.2.	SI posee hijos, solicitar el ingreso de la cantidad de hijos
+4.3.	Validar recargo del 20% por cada hijo que quieran asegurar
+5.	Solicitar y validar si el cliente/asegurado posee propiedades
+5.1.	Si NO posee propiedades continuar al inciso 6
+5.2.	Si posee propiedades, solicitar el ingreso de la cantidad de propiedades
+5.3.	Calcular el 35% de recargos sobre el precio base por cada propiedad
+6.	Solicitar y validar si el cliente/asegurado devenga un salario
+6.1.	Si NO posee salario continuar al inciso 7
+6.2.	Si posee salario, calcular el 5% de recargo sobre el salario del asegurado
+7.	Solicitar si el cliente/asegurado quiere realizar otra cotización
+7.1.	Si No, fin del programa
+7.2.	Si desea realizar otra cotización volver al paso 1

@@ -1,0 +1,3 @@
+Descripción del problema
+
+La empresa de seguros TK-U desea sistematizar el proceso de cotizaciones que actualmente se realizan de forma manual. Para ello se debe considerar una serie de preguntas las cuales definirán los recargos totales a pagar por el asegurado. Se deberá validar que el usuario sea mayor de edad para iniciar ya que si no cumple con esa condición no será objeto de realizar una cotización. Si el cliente/asegurado cumple con dicho requerimiento se le harán una serie de preguntas subsecuentes con respecto a su estado civil, si posee hijos, si posee propiedades y si devenga un salario.
